@@ -20,6 +20,7 @@ public class MainActivity : AppCompatActivity() {
 
         // set content view to binding's root
         setContentView(binding.root)
+        Toast.makeText(this, "Done finally", Toast.LENGTH_LONG).show()
     }
     
     override fun onDestroy() {
