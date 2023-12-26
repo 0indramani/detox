@@ -4,7 +4,7 @@ Simple Android app to avoid distractions
 |---|---|
 
 ## Download
-[Download APK](https://raw.githubusercontent.com/abhishekti7/UnicornFilePicker/master/image/screenshot_dracula.jpeg)!
+[Download APK](https://github.com/0indramani/detox/releases/download/v.1.0.0/Detox.apk)!
 
 
 ## Permissions Required

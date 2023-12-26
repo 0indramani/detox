@@ -105,7 +105,7 @@
                     android:id="@+id/startt"
                     android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
-                    android:text="Start" />
+                    android:text="Start/Stop" />
 
             </RelativeLayout>
 

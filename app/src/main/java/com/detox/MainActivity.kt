@@ -22,6 +22,7 @@ import com.detox.dataclass.*
 import android.os.Handler
 import android.os.Looper
 //import kotlinx.coroutines.flow.Flow;
+import kotlin.properties.Delegates
 import android.text.*
 
 public class MainActivity : AppCompatActivity() {
@@ -46,20 +47,14 @@ public class MainActivity : AppCompatActivity() {
         binding.selectedApp.layoutManager = GridLayoutManager(this, 3)
         binding.selectedApp.adapter = adapter
         
-        if (!baseObj.isRunning) {
-            binding.startt.text = "Start"
-        } else {
-            binding.startt.text = "Stop"
-        }
+        
         binding.startt.setOnClickListener {
             baseObj.timesInSecond = (((binding.texttt.getHour() * 60 * 60) + (binding.texttt.getMinute() * 60 )) * 1000).toLong()// ((((binding.texttt.getCurrentHour() *  60 * 60) + binding.texttt.getCurrentMinute()) * 60) * 1000).toLong()
             if (!baseObj.isRunning) {
                 baseObj.isRunning = true
-                binding.startt.text = "Stop"
                 baseObj.isPermanent = binding.allAppss.isChecked()
                 startService(Intent( this@MainActivity, MainService::class.java ) );
             } else {
-                binding.startt.text = "Start"
                 baseObj.isRunning = false
                 stopService( Intent( this@MainActivity, MainService::class.java ) ); 
             }

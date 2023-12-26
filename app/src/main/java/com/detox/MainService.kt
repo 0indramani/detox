@@ -73,12 +73,11 @@ class MainService : Service() {
             windowManager.addView(floatingView, params)
             object : CountDownTimer(BaseObj.timesInSecond, 1000) {
             override fun onTick(millisUntilFinished: Long) { 
-                floatingView.findViewById<TextView>(R.id.count).setText((millisUntilFinished /1000).toString() + " seconds")//setText("seconds remaining: " + millisUntilFinished / 1000) 
+                floatingView.findViewById<TextView>(R.id.count).setText((millisUntilFinished /1000).toString() + " seconds")
             }
             override fun onFinish() {
-                floatingView.findViewById<TextView>(R.id.count).setText("done!") 
                 closeFloatingWindow()
-                BaseObj.isRunning = false
+               // floatingView.findViewById<TextView>(R.id.count).setText("done!") 
             } 
         }.start() 
         }else {
@@ -89,9 +88,8 @@ class MainService : Service() {
                 floatingView2.findViewById<TextView>(R.id.count).setText((millisUntilFinished /1000).toString() + " seconds")
             }
             override fun onFinish() {
-                floatingView2.findViewById<TextView>(R.id.count).setText("done!") 
                 closeFloatingWindow2()
-                BaseObj.isRunning = false
+               // floatingView2.findViewById<TextView>(R.id.count).setText("done!") 
             } 
         }.start() 
         handler.post(checkPackageNameRunnable)
@@ -131,12 +129,14 @@ class MainService : Service() {
     }
 
     private fun closeFloatingWindow() {
+        BaseObj.isRunning = false
         if (windowManager != null && floatingView != null) {
             windowManager.removeView(floatingView)
             stopSelf() // Stop the service
         }
     }
     private fun closeFloatingWindow2() {
+        BaseObj.isRunning = false
         if (windowManager != null && floatingView2 != null) {
             windowManager.removeView(floatingView2)
             stopSelf() // Stop the service
@@ -192,9 +192,8 @@ class MainService : Service() {
             val builder = NotificationCompat.Builder(this, "service_channel")
 
             builder.setContentTitle("Timer")
-                .setTicker("Repairing .so files")
-                .setContentText("hsjjss")
-                .setSmallIcon(R.drawable.ic_launcher_foreground)
+                .setContentText("Waiting ...")
+                .setSmallIcon(R.mipmap.ic_launcher)
                 .setPriority(NotificationCompat.PRIORITY_LOW)
                 .setWhen(0)
                 .setOnlyAlertOnce(true)
