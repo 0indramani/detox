@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+    android:gravity="center"
+     android:background="@drawable/rounded_corner"
+     android:layout_margin="10dp"
+     android:orientation="vertical">
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_margin="20dp"
+         android:textSize="25dp"
+         android:layout_gravity="center"
+         android:text="Give all permissions" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_margin="20dp"
+         android:layout_gravity="center"
+        android:id="@+id/one"
+         android:text="Floating window permission" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+        android:id="@+id/two"
+         android:layout_margin="20dp"
+         android:layout_gravity="center"
+         android:text="Usage stats permission" />
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/detox/app/src/main/java/com/detox/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 37,
+          "index": 1841,
+          "line": 54
+        },
+        "start": {
+          "column": 37,
+          "index": 1841,
+          "line": 54
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/detox/app/src/main/java/com/detox/MainService.kt",
+      "selection": {
+        "end": {
+          "column": 17,
+          "index": 3313,
+          "line": 87
+        },
+        "start": {
+          "column": 17,
+          "index": 3313,
+          "line": 87
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/detox/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 34,
+          "index": 646,
+          "line": 14
+        },
+        "start": {
+          "column": 34,
+          "index": 646,
+          "line": 14
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/detox/app/src/main/res/layout/service_main.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/detox/app/src/main/java/com/detox/SplashActivity.kt",
+      "selection": {
+        "end": {
+          "column": 19,
+          "index": 1126,
+          "line": 32
+        },
+        "start": {
+          "column": 19,
+          "index": 1126,
+          "line": 32
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/detox/app/src/main/res/layout/activity_splash.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/detox/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/detox/app/src/main/java/com/detox/SplashActivity.kt"
+}
