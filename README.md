@@ -4,6 +4,16 @@ Simple Android app to avoid distractions
 |---|---|
 
 ## Download
+**Before using this app make sure that the permissions are given**
+
+
+ **Grant permissions**
+   + Click on menu
+   + Then Help
+   + Click on each button
+   + Allow **Detox** app's permission
+
+
 [Download APK](https://github.com/0indramani/detox/releases/download/v.1.0.0/Detox.apk)!
 
 
