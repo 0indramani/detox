@@ -1,10 +1,10 @@
 # Detox
 Simple Android app to avoid distractions
-| ![Alt textA](https://raw.githubusercontent.com/abhishekti7/UnicornFilePicker/master/image/screenshot_dracula.jpeg "a title") | ![Alt textA](https://raw.githubusercontent.com/abhishekti7/UnicornFilePicker/master/image/screenshot_dracula.jpeg "a title") |
+| ![Alt textA](images/one.jpg "err") | ![Alt textA](images/two.jpg "err") |
 |---|---|
 
 ## Download
-[Download APK](https://raw.githubusercontent.com/abhishekti7/UnicornFilePicker/master/image/screenshot_dracula.jpeg)!
+[Download APK](images/one.jpg)!
 
 
 ## Permissions Required
